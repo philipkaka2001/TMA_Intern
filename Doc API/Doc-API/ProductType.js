@@ -1,4 +1,4 @@
-// [GET]v1/user
+// [GET]v1/typeProduct
 Response: [
   {
     id: "1",
@@ -14,7 +14,7 @@ Response: [
   },
 ];
 
-// [GET]v1/user/1
+// [GET]v1/typeProduct/1
 Response: [
   {
     id: "1",
@@ -22,7 +22,7 @@ Response: [
   },
 ];
 
-// [POST]v1/user
+// [POST]v1/typeProduct
 body: [
   {
     name: "Iphone",
@@ -35,21 +35,8 @@ Response: [
   },
 ];
 
-// [PUT]v1/user/1
 
-body: [
-  {
-    name: "Ipad",
-  },
-];
-
-Response: [
-  {
-    msg: "Update product type successfully",
-  },
-];
-
-// [DELETE]v1/user/1
+// [DELETE]v1/typeProduct/1
 
 Response: [
   {
