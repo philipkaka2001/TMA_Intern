@@ -3,14 +3,17 @@ Response: [
   {
     id: "1",
     image: "img.png",
+    id_product: "1"
   },
   {
     id: "2",
     image: "img1.png",
+    id_product: "2"
   },
   {
     id: "3",
     image: "img2.png",
+    id_product: "1"
   },
 ];
 
